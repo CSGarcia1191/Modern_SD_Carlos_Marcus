@@ -1,0 +1,19 @@
+package com.convention.customerresources;
+
+@RestController
+public class CustomerResource {
+	
+	Customer customer;
+	
+	@RequestMapping("/customers", method=GET)
+	public Collection<Customer> getCustomers() {
+		return new InMemoryCustomers();
+	}
+	
+	
+	@RequestMapping("/customers/id", method=GET)
+	public Customer getCustomer (@RequestParam(value="id")) {
+		CustomerRepository repo = new CustomerRepository();
+		repo.getCustomer(id);
+	}
+}

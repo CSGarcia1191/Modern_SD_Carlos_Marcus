@@ -1,0 +1,6 @@
+
+public class CustomerRepository {
+	private List<Customer> customers = new ArrayList<>(Arrays.aList(
+			new
+	))
+}

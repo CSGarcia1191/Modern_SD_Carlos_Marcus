@@ -1,0 +1,5 @@
+package com.convention.customers;
+
+public class Customer {
+
+}

@@ -1,0 +1,13 @@
+
+package com.convention.customers;
+
+import java.util.*;
+
+public class CustomerRepository {
+	private List<Customer> customers = new ArrayList<>(Arrays.asList(
+			new Customer("Joe","joe.blow@email.com",""),
+			new Customer("","",""),
+			new Customer("","","")
+			
+	));
+}
