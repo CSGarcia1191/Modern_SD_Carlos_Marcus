@@ -1,3 +1,4 @@
-/home/osboxes/eclipse-workspace/conventionAPI/src/main/java/com/convention/customers/Customer.java
-/home/osboxes/eclipse-workspace/conventionAPI/src/main/java/com/convention/customers/CustomerRepository.java
-/home/osboxes/eclipse-workspace/conventionAPI/src/main/java/com/convention/conventionAPI/ConventionAPI.java
+/Users/carlosgarcia/git/Modern_SD_Carlos_Marcus/eclipse-workspace/conventionAPI/src/main/java/com/convention/app/api/CustomerResource.java
+/Users/carlosgarcia/git/Modern_SD_Carlos_Marcus/eclipse-workspace/conventionAPI/src/main/java/com/convention/app/domain/CustomerRepository.java
+/Users/carlosgarcia/git/Modern_SD_Carlos_Marcus/eclipse-workspace/conventionAPI/src/main/java/com/convention/app/domain/Customer.java
+/Users/carlosgarcia/git/Modern_SD_Carlos_Marcus/eclipse-workspace/conventionAPI/src/main/java/com/convention/app/ConventionApp.java
