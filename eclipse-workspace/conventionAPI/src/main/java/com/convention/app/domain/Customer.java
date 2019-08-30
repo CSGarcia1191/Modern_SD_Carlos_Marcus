@@ -1,15 +1,32 @@
 package com.convention.app.domain;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CUSTOMERS")
 public class Customer {
-	static Integer idCount = 0;
-	String name;
-	Integer id;
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	long id;
 	
-	public Integer getId() {
+	//static Integer idCount = 0;
+	@Column(name="CUSTOMER_NAME")
+	String name;
+	
+	String email;
+	
+	String password;
+	
+	public long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -36,15 +53,13 @@ public class Customer {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	String email;
-	String password;
-	
-	public Customer (String name, String email, String passworD) {
+	/*
+	public Customer (String name, String email, String password) {
 		setName(name);
 		setEmail(email);
 		setPassword(password);
 		setId(idCount++);
 	}
+	*/
 
 }
