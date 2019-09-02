@@ -7,6 +7,7 @@ import java.util.Iterator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpRequest;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,6 +20,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import com.convention.app.domain.Customer;
 import com.convention.app.repository.CustomerRepository;
+import com.convention.app.service.CustomerService;
 
 
 @RestController
@@ -26,7 +28,7 @@ import com.convention.app.repository.CustomerRepository;
 public class CustomerAPI {
 	
 	@Autowired
-	CustomerRepository repo;
+	private CustomerService repo;
 	
 	@GetMapping
 	public Iterable<Customer> getAll() {
@@ -35,7 +37,7 @@ public class CustomerAPI {
 	
 	@GetMapping("/{customerName}")
 	public Customer getCustomerByName(@PathVariable("customerName") String customerName) {
-		return getByNameHelper(customerName);
+		return repo.findOne(customerName);
 	}
 	
 	@PostMapping
@@ -44,7 +46,7 @@ public class CustomerAPI {
 			return ResponseEntity.badRequest().build();
 		}
 		
-		newCustomer = repo.save(newCustomer);
+		newCustomer = repo.addOne(newCustomer);
 		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{newName}").buildAndExpand(newCustomer.getName()).toUri();
 		ResponseEntity<?> response = ResponseEntity.created(location).build();
 		return response;
@@ -52,45 +54,22 @@ public class CustomerAPI {
 	
 	@PutMapping("/{newName}")
 	public ResponseEntity<?> putCustomer(@RequestBody Customer newCustomer, @PathVariable("newName") String newName) {
-		if (!newCustomer.getName().equals(newName) || newCustomer.getName() == null || newCustomer.getEmail() == null) {
+		Customer original = repo.findOne(newCustomer.getName());
+		
+		if (original == null) {
 			return ResponseEntity.badRequest().build();
 		}
 		
-		Customer c = getByNameHelper(newName);
-		c.setEmail(newCustomer.getEmail());
-		c.setPassword(newCustomer.getPassword());
+		original.setEmail(newCustomer.getEmail());
+		original.setPassword(newCustomer.getPassword());
 		
-		newCustomer = repo.save(c);
+		newCustomer = repo.addOne(original);
 		return ResponseEntity.ok().build();
 	}
 	
-	public Customer getByNameHelper(String n) {
-		Iterable<Customer> result = repo.findAll();
-		Iterator<Customer> iter = result.iterator();
-		Customer c = null;
-		
-		while(iter.hasNext()) {
-			c = iter.next();
-			
-			if (c.getName().equals(n)) {
-				break;
-			}
-		}
-		
-		return c;
+	@DeleteMapping("/{customerName}")
+	public ResponseEntity<?> deleteCustomer(@PathVariable("customerName") String customerName){
+		repo.delete(customerName);
+		return ResponseEntity.ok().build();
 	}
-	
-	
-	/*
-	 * public CustomerAPI(CustomerRepository repo) { this.repo = repo; }
-	 * 
-	 * 
-	 * @GetMapping public Collection<Customer> getCustomers() { return
-	 * repo.getAll(); }
-	 * 
-	 * @PostMapping("/add-customer/{customer}") public void
-	 * addCustomer(@PathVariable Customer customer) {
-	 * repo.addCustomer(customer.getName(), customer.getEmail(),
-	 * customer.getPassword()); }
-	 */
 }

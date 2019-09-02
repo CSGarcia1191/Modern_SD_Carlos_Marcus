@@ -14,12 +14,14 @@ public class Customer {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	long id;
 	
-	//static Integer idCount = 0;
+	
 	@Column(name="CUSTOMER_NAME")
 	String name;
 	
+	@Column(name="EMAIL")
 	String email;
 	
+	@Column(name="PASSWORD")
 	String password;
 	
 	public long getId() {

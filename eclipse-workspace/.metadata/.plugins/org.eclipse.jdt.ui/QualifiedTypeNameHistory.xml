@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
-    <fullyQualifiedTypeName name="java.awt.List"/>
-    <fullyQualifiedTypeName name="com.convention.customers.CustomerRepository"/>
-    <fullyQualifiedTypeName name="com.convention.customers.Customer"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.convention.customers.CustomerRepository"/>
+<fullyQualifiedTypeName name="com.convention.customers.Customer"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.convention.app.domain.Customer"/>
+<fullyQualifiedTypeName name="com.convention.app.service.CustomerService"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.convention.app.domain.Event"/>
+<fullyQualifiedTypeName name="com.convention.app.repository.EventRepository"/>
+<fullyQualifiedTypeName name="com.convention.app.service.EventService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 </qualifiedTypeNameHistroy>

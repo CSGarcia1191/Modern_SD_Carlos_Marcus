@@ -1,4 +1,4 @@
+com/convention/app/api/CustomerAPI.class
 com/convention/app/domain/Customer.class
 com/convention/app/ConventionApp.class
-com/convention/app/api/CustomerAPI.class
 com/convention/app/repository/CustomerRepository.class

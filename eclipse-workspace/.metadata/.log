@@ -1408,3 +1408,631 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-09-01 17:26:30.506 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/marcusstancil/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/marcusstancil/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-01 17:26:45.231
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-01 17:26:45.866
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-01 17:26:45.866
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19d3f4fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43cf97a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:26:57.838
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:26:57.841
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3d8e7df5[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=994)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:26:57.845
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:26:57.914
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.272
+!MESSAGE Boot LS startup time from start to initialized: 3396ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.310
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ImJWBsVgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.311
+!MESSAGE subscribing to classpath changes: sts4.classpath.ImJWBsVg isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.313
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.317
+!MESSAGE subsribers = {sts4.classpath.ImJWBsVg=Send Classpath Notifications(81)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.317
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.320
+!MESSAGE project conventionAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.321
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.322
+!MESSAGE Preparing classpath changed notification conventionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.322
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.322
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:01.323
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ImJWBsVg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:02.371
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.325
+!MESSAGE buffering callback sts4.classpath.ImJWBsVg conventionAPI false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.326
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.327
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.328
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.329
+!MESSAGE buffering callback sts4.classpath.ImJWBsVg HelloWorld false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.329
+!MESSAGE executing callback sts4.classpath.ImJWBsVg 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:03.356
+!MESSAGE executing callback sts4.classpath.ImJWBsVg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.461
+!MESSAGE Preparing classpath changed notification conventionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.462
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.465
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.467
+!MESSAGE buffering callback sts4.classpath.ImJWBsVg conventionAPI false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.468
+!MESSAGE executing callback sts4.classpath.ImJWBsVg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.486
+!MESSAGE executing callback sts4.classpath.ImJWBsVg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.618
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ImJWBsVg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.618
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ImJWBsVg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.619
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:27:08.620
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ImJWBsVg => OK
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-09-01 17:27:11.284
+!MESSAGE Exception while reading last build state for: P/conventionAPI
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error reading last build state for project conventionAPI
+	at org.eclipse.jdt.internal.core.JavaModelManager.readState(JavaModelManager.java:4167)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getLastBuiltState(JavaModelManager.java:2287)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.getLastState(JavaBuilder.java:443)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:182)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.ProviderNotFoundException: Provider "jrt" not found
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:341)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.initialize(JRTUtil.java:368)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.<init>(JRTUtil.java:350)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getNewJrtFileSystem(JRTUtil.java:338)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(JRTUtil.java:123)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:158)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.loadModules(ClasspathJrt.java:127)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.<init>(ClasspathJrt.java:68)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:146)
+	at org.eclipse.jdt.internal.core.builder.State.read(State.java:290)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.readState(JavaBuilder.java:154)
+	at org.eclipse.jdt.internal.core.JavaModelManager.readState(JavaModelManager.java:4159)
+	... 15 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 2 2019-09-01 17:27:11.285
+!MESSAGE Error reading last build state for project conventionAPI
+!STACK 0
+java.nio.file.ProviderNotFoundException: Provider "jrt" not found
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:341)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.initialize(JRTUtil.java:368)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.<init>(JRTUtil.java:350)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getNewJrtFileSystem(JRTUtil.java:338)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(JRTUtil.java:123)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:158)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.loadModules(ClasspathJrt.java:127)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.<init>(ClasspathJrt.java:68)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:146)
+	at org.eclipse.jdt.internal.core.builder.State.read(State.java:290)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.readState(JavaBuilder.java:154)
+	at org.eclipse.jdt.internal.core.JavaModelManager.readState(JavaModelManager.java:4159)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getLastBuiltState(JavaModelManager.java:2287)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.getLastState(JavaBuilder.java:443)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:182)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2019-09-01 17:30:56.118
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-01 17:31:16.414
+!MESSAGE Launch configuration ConventionAPI references non-existing project conventionAPI.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ConventionAPI references non-existing project conventionAPI.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-09-01 17:31:16.414
+!MESSAGE Launch configuration ConventionAPI references non-existing project conventionAPI.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-01 17:31:16.415
+!MESSAGE Launch configuration ConventionAPI references non-existing project conventionAPI.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ConventionAPI references non-existing project conventionAPI.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-09-01 17:31:16.415
+!MESSAGE Launch configuration ConventionAPI references non-existing project conventionAPI.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-01 17:31:16.418
+!MESSAGE Launch configuration ConventionAPI references non-existing project conventionAPI.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ConventionAPI references non-existing project conventionAPI.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-09-01 17:31:16.418
+!MESSAGE Launch configuration ConventionAPI references non-existing project conventionAPI.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:41.909
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:41.910
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3d8e7df5[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=994)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:41.911
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.334
+!MESSAGE Boot LS startup time from start to initialized: 1422ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.352
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nNEUpaSLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.353
+!MESSAGE subscribing to classpath changes: sts4.classpath.nNEUpaSL isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.353
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.353
+!MESSAGE subsribers = {sts4.classpath.nNEUpaSL=Send Classpath Notifications(860)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.353
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.354
+!MESSAGE project conventionAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.354
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.354
+!MESSAGE Preparing classpath changed notification conventionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.354
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nNEUpaSL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.355
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.356
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.357
+!MESSAGE buffering callback sts4.classpath.nNEUpaSL conventionAPI false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.357
+!MESSAGE executing callback sts4.classpath.nNEUpaSL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 17:31:43.373
+!MESSAGE executing callback sts4.classpath.nNEUpaSL SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-09-01 17:47:45.703
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [findByName() [in CustomerRepository [in [Working copy] CustomerRepository.java [in com.convention.app.repository [in src/main/java [in conventionAPI]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:607)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:664)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:540)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.lambda$0(SpringBootJavaHoverProvider.java:41)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-09-01 17:47:45.703
+!MESSAGE findByName() [in CustomerRepository [in [Working copy] CustomerRepository.java [in com.convention.app.repository [in src/main/java [in conventionAPI]]]]] does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:00:56.551
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nNEUpaSL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:00:56.553
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nNEUpaSL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:00:56.554
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:00:56.554
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nNEUpaSL => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-09-01 20:00:57.998
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2019-09-01 20:01:55.522 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/marcusstancil/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/marcusstancil/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-09-01 20:02:01.470
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-01 20:02:02.566
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-01 20:02:03.200
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-01 20:02:03.200
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@587bf2e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6530a1de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:07.332
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:07.333
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2c429fea[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=994)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:07.335
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:07.378
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.198
+!MESSAGE Boot LS startup time from start to initialized: 1852ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.238
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xDcQZlfRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.239
+!MESSAGE subscribing to classpath changes: sts4.classpath.xDcQZlfR isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.241
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.244
+!MESSAGE subsribers = {sts4.classpath.xDcQZlfR=Send Classpath Notifications(81)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.244
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.264
+!MESSAGE project conventionAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.265
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.265
+!MESSAGE Preparing classpath changed notification conventionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.265
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xDcQZlfR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.272
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.289
+!MESSAGE buffering callback sts4.classpath.xDcQZlfR conventionAPI false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.290
+!MESSAGE executing callback sts4.classpath.xDcQZlfR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-01 20:02:09.340
+!MESSAGE executing callback sts4.classpath.xDcQZlfR SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-09-01 20:02:11.763
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-01 20:48:48.475
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-01 23:16:03.160
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-09-01 23:19:41.387
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [putCustomer(Customer, String) [in EventAPI [in [Working copy] EventAPI.java [in com.convention.app.api [in src/main/java [in conventionAPI]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:607)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:664)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:540)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.lambda$0(SpringBootJavaHoverProvider.java:41)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-09-01 23:19:41.388
+!MESSAGE putCustomer(Customer, String) [in EventAPI [in [Working copy] EventAPI.java [in com.convention.app.api [in src/main/java [in conventionAPI]]]]] does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:15:54.176
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xDcQZlfR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:15:54.177
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xDcQZlfR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:15:54.177
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:15:54.177
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xDcQZlfR => OK
+!SESSION 2019-09-02 10:16:00.811 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/marcusstancil/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/marcusstancil/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-02 10:16:08.575
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-02 10:16:09.297
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-02 10:16:09.297
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21d6dc81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3891b430,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:14.109
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:14.110
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@542cab41[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=994)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:14.113
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:14.165
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.121
+!MESSAGE Boot LS startup time from start to initialized: 1994ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.144
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LlKSYcDBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.145
+!MESSAGE subscribing to classpath changes: sts4.classpath.LlKSYcDB isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.147
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.149
+!MESSAGE subsribers = {sts4.classpath.LlKSYcDB=Send Classpath Notifications(80)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.149
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.246
+!MESSAGE project conventionAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.247
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.247
+!MESSAGE Preparing classpath changed notification conventionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.248
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LlKSYcDB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.248
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.255
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.256
+!MESSAGE buffering callback sts4.classpath.LlKSYcDB conventionAPI false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.256
+!MESSAGE executing callback sts4.classpath.LlKSYcDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-02 10:16:16.283
+!MESSAGE executing callback sts4.classpath.LlKSYcDB SUCCESS [done]
