@@ -16,4 +16,6 @@
 <fullyQualifiedTypeName name="com.convention.app.service.EventService"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.convention.app.repository.RegistrationRepository"/>
+<fullyQualifiedTypeName name="com.convention.app.domain.Registration"/>
 </qualifiedTypeNameHistroy>
