@@ -56,7 +56,7 @@ public class CustomerAPI {
 	public ResponseEntity<?> putCustomer(@RequestBody Customer newCustomer, @PathVariable("newName") String newName) {
 		Customer original = repo.findOne(newCustomer.getName());
 		
-		if (original == null) {
+		if (original == null || !newName.equals(newCustomer.getName())) {
 			return ResponseEntity.badRequest().build();
 		}
 		
