@@ -18,4 +18,5 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.convention.app.repository.RegistrationRepository"/>
 <fullyQualifiedTypeName name="com.convention.app.domain.Registration"/>
+<fullyQualifiedTypeName name="com.webage.logging.ApiLogger"/>
 </qualifiedTypeNameHistroy>

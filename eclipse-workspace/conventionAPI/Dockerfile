@@ -4,7 +4,7 @@ WORKDIR /conventionAPI
 RUN gradle bootJar
 
 FROM openjdk:8-jdk-alpine
-EXPOSE 8880
+EXPOSE 8080
 VOLUME /tmp
 ARG LIBS=conventionAPI/build/libs
 COPY --from=builder ${LIBS}/ /conventionAPI/lib

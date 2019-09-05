@@ -18,10 +18,15 @@
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/marcusstancil/securityAPI/workspace/prj-auth-api"/>
+			<item value="/Users/marcusstancil/securityAPI"/>
+			<item value="/Users/marcusstancil/securityAPI/workspace/prj-cust-api-secured"/>
 			<item value="/Users/marcusstancil/Modern_SD_Carlos_Marcus/eclipse-workspace/conventionAPI"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
 	</section>
 </section>
