@@ -46,9 +46,10 @@ public class AuthFilter implements Filter{
 		// token endpoint
 		// user register endpoint
 		// healthcheck endpoint on '/api/'
-		if(   !uri.startsWith("/api/events") 
-	       && !uri.startsWith("/api/registrations")
-	       && !uri.equals("/api/customers")
+		if(   !uri.startsWith("events") 
+		   && !uri.startsWith("register")
+	       && !uri.startsWith("registrations")
+	       && !uri.equals("customers")
 	       ) {
 			chain.doFilter(request, response);
 			return;			
